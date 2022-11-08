@@ -4,7 +4,6 @@
 :toc-title: Content
 :toclevels: 5
 
-== Roadmap
 
 == Требования работодателя
 
@@ -39,29 +38,34 @@
 * Совместная работа с другими сотрудниками для решения проблем с информационными технологиями
 * Тестирование программного обеспечения
 
-=== Mandatory skills
 
-. Git & Github (more than basic commands)
-. Linux (find, grep, netstat, etc; writing shell scripts)
+== Mandatory skills
+
+. <<git>>
+. <<linux>>
 . <<data_structure_and_algorithms>>
 . <<http_ssl_rest_soap>>
 . <<computer_science_fundamentals>>
 . <<sql>>
 . <<messaging>>
-. Design patterns
+. <<design_patterns>>
 
-==== Data structure & algorithms [[data_structure_and_algorithms]]
+=== Git & Github (more than basic commands)[[git]]
+
+=== Linux (find, grep, netstat, etc; writing shell scripts)[[linux]]
+
+=== Data structure & algorithms [[data_structure_and_algorithms]]
 
 . Trie
 . B-Tree
 . AVL tree
+. ...
 
-==== OSI, HTTP/HTTPS, SSL, REST, SOAP,  [[http_ssl_rest_soap]]
-.
+=== OSI, HTTP/HTTPS, SSL, REST, SOAP,  [[http_ssl_rest_soap]]
 . https://www.tutorialsteacher.com/https/how-ssl-works[how ssl works]
 . https://superuser.com/questions/620121/what-is-the-difference-between-a-certificate-and-a-key-with-respect-to-ssl[difference between a certificate and a key with respect to ssl]
 
-==== Computer science and fundamental [[computer_science_fundamentals]]
+=== Computer science and fundamental [[computer_science_fundamentals]]
 
 . Binary Number System & Operations
 . Analyzing of algorithms
@@ -79,12 +83,18 @@
 . Heaps
 . Graphs
 
-==== SQL [[sql]]
+=== SQL [[sql]]
 
 https://www.youtube.com/playlist?list=PLaFqU3KCWw6JRuU5vpszIUDAVEBeI9XtS[dev1. sql development course youtube]
 
+=== Message queue, kafka [[messaging]]
 
-=== Tools, frameworks, libraries & APIs
+. https://medium.com/@bb8s/message-queue-overview-of-kafka-8e24cc9c56a6[mq: overview to kafka]
+. https://medium.com/event-driven-utopia/understanding-kafka-topic-partitions-ae40f80552e8[Kafka topic partiotions]
+
+=== Design patterns [[design_patterns]]
+
+== Tools, frameworks, libraries & APIs
 
 . <<tools>>
 . <<java_api>>
@@ -92,8 +102,6 @@ https://www.youtube.com/playlist?list=PLaFqU3KCWw6JRuU5vpszIUDAVEBeI9XtS[dev1. s
 . <<frameworks>>
 . <<testing>>
 . <<utility_libraries>>
-
-
 
 === Tools [[tools]]
 
@@ -110,37 +118,44 @@ https://www.youtube.com/playlist?list=PLaFqU3KCWw6JRuU5vpszIUDAVEBeI9XtS[dev1. s
 . Java IO & NIO
 . <<java_8_features>>
 
-=== Database [[database]]
-
-. JDBC
-
-==== Java Collections Framework [[java_collections]]
+=== Java Collections Framework [[java_collections]]
 
 image::java_collections.png[]
 
-==== Java 8 Features [[java_8_features]]
+=== Java 8 Features [[java_8_features]]
 
 . Lambda expressions
 . Stream API
 . Optional classes
 . Date & Time API
 
+=== Database [[database]]
+
+. JDBC
+
 
 === Frameworks [[frameworks]]
 
-. Spring Framework
-.. https://www.youtube.com/watch?v=rd6wxPzXQvo&list=PLq7X6S3EAxp4KXdec8BWwt8gItZgoKvG-&index=1[Spring builder youtube from Evgeny Borizov 2h24m]
-.. https://www.youtube.com/watch?v=GL1txFxswHA[Spring patterns youtube from Evgeny Borisov 2h47m]
-. Hibernate
-. Spring Boot
+. <<spring_framework>>
+. <<spring_boot>>
+. <<hibernate>>
 . <<java_microservice_frameworks>>
 
+==== Spring Framework [[spring_framework]]
+. https://www.youtube.com/watch?v=rd6wxPzXQvo&list=PLq7X6S3EAxp4KXdec8BWwt8gItZgoKvG-&index=1[Spring builder youtube from Evgeny Borizov 2h24m]
+. https://www.youtube.com/watch?v=GL1txFxswHA[Spring patterns youtube from Evgeny Borisov 2h47m]
+
+
+==== Spring Boot [[spring_boot]]
+
+==== Hibernate [[hibernate]]
 
 ==== Java Microservice Frameworks — MicroProfile, Micronaut, and Quarkus [[java_microservice_frameworks]]
 
 . Quarkus
 . Eclipse microporfile
 . Micronaut
+
 
 === Testing [[testing]]
 
@@ -152,10 +167,9 @@ image::java_collections.png[]
 
 . Lombok
 
-=== Message queue, kafka [[messaging]]
 
-. https://medium.com/@bb8s/message-queue-overview-of-kafka-8e24cc9c56a6[mq: overview to kafka]
-. https://medium.com/event-driven-utopia/understanding-kafka-topic-partitions-ae40f80552e8[Kafka topic partiotions]
+
+
 
 == Desktop & Frontend
 
@@ -163,6 +177,29 @@ questionable
 
 
 
+== System design
+
+. Scalability
+.. https://www.youtube.com/watch?v=-W9F__D3oY4[Scalability Lecture at Harvard]
+... Topics covered:
+.... Vertical scaling
+.... Horizontal scaling
+.... Caching
+.... Load balancing
+.... Database replication
+.... Database partitioning
+.. http://www.lecloud.net/tagged/scalability/chrono[Scalability article 1]
+... Topics covered:
+.... Clones
+.... Databases
+.... Caches
+.... Asynchronism
+.. http://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html[Scalability article 2]
+.. http://www.slideshare.net/jboner/scalability-availability-stability-patterns/[Scalability article 3]
+. Latency vs throughput
+.. https://community.cadence.com/cadence_blogs_8/b/sd/archive/2010/09/13/understanding-latency-vs-throughput[Understanding latency vs throughput]
+. Availability vs consistency
+https://github.com/donnemartin/system-design-primer#availability-vs-consistency[To be continued]
 
 == Полезные ссылки
 
