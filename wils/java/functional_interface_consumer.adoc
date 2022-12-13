@@ -1,0 +1,4 @@
+Functional Interface
+Consumer, BiConsumer
+
+https://www.tutorialspoint.com/how-to-use-consumer-and-biconsumer-interfaces-in-lambda-expression-in-java

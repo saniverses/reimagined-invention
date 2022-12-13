@@ -1,0 +1,4 @@
+
+Openshift is enterprise kubernetes platform, container management system
+
+RHEL red hat enterprise linux

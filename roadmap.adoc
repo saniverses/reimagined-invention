@@ -214,8 +214,9 @@ https://github.com/donnemartin/system-design-primer#availability-vs-consistency[
 
 . https://cdn.otus.ru/media/public/34/15/3415ad_program_javaspring.pdf[otus java spring course program]
 
+. https://github.com/Shell26/Java-Developer[interview questions for java developer]
 
-
+. https://quizlet.com/ca/589635743/complete-java-for-junior-developer-flash-cards/[quizlet for junior java developer]
 
 
 
