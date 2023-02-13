@@ -1,0 +1,12 @@
+OSI 
+
+https://habr.com/ru/company/serverspace/blog/689704/
+
+
+по сетям и многим из тех понятий, что описаны в матрице можно вот у препода послушать, он вроде понятно объясняет
+https://youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1
+
+рекомендую объяснение модели osi и модели tcp/ip от хорошего препода, но на англ
+https://youtu.be/3b_TAYtzuho
+а еще есть вот, там чуть больше про термины (тоже на анг, но с характерным индийским акцентом)
+https://youtu.be/vv4y_uOneC0

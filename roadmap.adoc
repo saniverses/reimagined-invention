@@ -9,18 +9,7 @@
 
 === Навыки
 
-* Java DataBase Connectivity (JDBC)
-* Java Message Service (JMS)
-* Kafka
-* PL/SQL
-* автоматизированное тестирование
-* анализ технических характеристик программного обеспечения
-* использование многопоточного программирования
-* Jenkins (инструменты управление конфигурацией программного обеспечения)
 * Java Core
-* Hibernate
-* DevOps
-* SQL
 * Spring Framework
 * Spring Boot
 * Spring JPA
@@ -28,6 +17,18 @@
 * Spring Data
 * Spring Web
 * Spring Test
+* SQL
+* PL/SQL
+* Java DataBase Connectivity (JDBC)
+* Java Message Service (JMS)
+* Kafka
+* автоматизированное тестирование
+* анализ технических характеристик программного обеспечения
+* использование многопоточного программирования
+* Hibernate
+* Jenkins (инструменты управление конфигурацией программного обеспечения)
+* DevOps
+
 
 === Функции
 
@@ -86,6 +87,9 @@
 === SQL [[sql]]
 
 https://www.youtube.com/playlist?list=PLaFqU3KCWw6JRuU5vpszIUDAVEBeI9XtS[dev1. sql development course youtube]
+
+Database normalisation
+
 
 === Message queue, kafka [[messaging]]
 
@@ -203,6 +207,7 @@ https://github.com/donnemartin/system-design-primer#availability-vs-consistency[
 
 == Полезные ссылки
 
+. https://medium.com/javarevisited/the-java-programmer-roadmap-f9db163ef2c2[Java Developer Roadmap 2022]
 . https://dzone.com/[DZone - рассылка про новости в мире it]
 . https://javarush.ipnodns.ru/v[javarush course map]
 . https://javarevisited.blogspot.com/2015/10/133-java-interview-questions-answers-from-last-5-years.html#axzz7jstm8cGW[130+ Java Interview Questions Answers for 2 to 7 Year Experienced Programmers]
