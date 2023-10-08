@@ -1,4 +1,4 @@
-class Solution {
+class Solution904 {
 
     public static int totalFruit(int[] fruits) {
         int[] bucket = new int[2];
